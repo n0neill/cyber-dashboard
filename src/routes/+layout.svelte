@@ -114,7 +114,7 @@
 
 <!-- Content Container -->
 <div class="content-container">
-	Example text
+	Use starting screen for emails 
 </div>
 
 {@render children()}
