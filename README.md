@@ -14,9 +14,7 @@ You can preview the production build with `npm run preview`.
 
 # KQL Queries
 ## #1
-```
-EmailEvents|
- where Timestamp > ago(30d)
+```s
 EmailEvents
 | where Timestamp > ago(30d)
 | where ThreatTypes contains "Phish"
