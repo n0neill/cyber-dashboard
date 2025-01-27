@@ -113,8 +113,6 @@
 </div>
 
 <!-- Content Container -->
-<div class="content-container">
-	Use starting screen for emails 
+<div class="content-container"> 
+	{@render children()}
 </div>
-
-{@render children()}
