@@ -7,7 +7,7 @@ export function cleanDefenderData(data: any) {
 
   // Clean and transform the data
   return data.Results.map((email: any) => ({
-    Timestamp: email.Timestamp ? new Date(email.Timestamp).toLocaleString('en-GB'): 'N/A', // Handle null/undefined
+    Timestamp: email.Timestamp ? new Date(email.Timestamp).toLocaleString('en-AU'): 'N/A', // Handle null/undefined
     NetworkMessageId: email.NetworkMessageId || 'N/A', // Handle null/undefined
     SenderFromAddress: email.SenderFromAddress || 'N/A', // Handle null/undefined
     RecipientEmailAddress: email.RecipientEmailAddress || 'N/A', // Handle null/undefined
